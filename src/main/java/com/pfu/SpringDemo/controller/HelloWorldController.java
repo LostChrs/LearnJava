@@ -10,6 +10,7 @@ public class HelloWorldController {
         return "Wangjia!";
     }
 
+
     @RequestMapping("getUser")
     public String getUser(){
         return "User is You";
