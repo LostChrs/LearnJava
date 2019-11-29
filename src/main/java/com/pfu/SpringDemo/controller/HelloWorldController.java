@@ -9,4 +9,9 @@ public class HelloWorldController {
     public String sayHello(){
         return "Wangjia!";
     }
+
+    @RequestMapping("getUser")
+    public String getUser(){
+        return "User is You";
+    }
 }
